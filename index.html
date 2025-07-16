@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favikon.png" type="image/png" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Website Travel</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/favikon.png" alt="Logo" class="nav__logo-img" />
+          KKN Literasi Undana Hansisi
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Discover</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <img src="assets/img/home.jpg" alt="" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <!-- <span class="home__data-subtitle">Desa Hansisi</span>
+            <h1 class="home__data-title">
+              the place where the<br />
+              story begins.
+              <b>
+                One book, one child, <br />
+                a million hopes.</b
+              >
+            </h1> -->
+            <a href="#about" class="button">Explore</a>
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.instagram.com/indonesiatimurtrip/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://wa.me/6281236419680?text=Halo%20Saya%20ingin%20memesan%20paket%20trip"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-phone-fill"></i>
+            </a>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <span class="home__info-title"
+                >Tempat cerita bermula.<br />Satu buku, satu anak, sejuta
+                harapan.</span
+              >
+              <a
+                href="#discover"
+                class="button button--flex button--link home__info-button"
+              >
+                More <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="home__info-overlay">
+              <img src="assets/img/home2.png" alt="" class="home__info-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Hari ini kami tiba, <br />
+              bukan hanya dengan kaki,
+            </h2>
+            <p class="about__description">
+              Tapi dengan mimpi yang ingin ditanamkan. Literasi adalah benihnya,
+              Hansisi adalah ladang suburnya.
+            </p>
+            <a
+              href="https://www.instagram.com/kknliterasi_hansisi.unc/"
+              class="button"
+              >Intip Kegiatan Kami</a
+            >
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="assets/img/home.png" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img src="assets/img/about2 .jpg" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discover section" id="discover">
+        <h2 class="section__title">
+          Langkah kecil kami<br />
+          menjejak tanah Semau
+        </h2>
+
+        <div class="swiper discover__container">
+          <div class="swiper-wrapper">
+            <!-- DISCOVER SLIDES -->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover1.jpg"
+                alt=""
+                class="discover__img"
+              />
+            </div>
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover2.jpg"
+                alt=""
+                class="discover__img"
+              />
+            </div>
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover3.jpg"
+                alt=""
+                class="discover__img"
+              />
+            </div>
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover4.jpg"
+                alt=""
+                class="discover__img"
+              />
+            </div>
+            <!-- <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover5.jpg"
+                alt=""
+                class="discover__img"
+              />
+            </div>
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover6.jpg"
+                alt=""
+                class="discover__img"
+              />
+            </div>
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover7.jpg"
+                alt=""
+                class="discover__img"
+              />
+            </div> -->
+          </div>
+
+          <!-- Navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== EXPERIENCE ====================-->
+      <section class="experience section">
+        <h2 class="section__title">
+          Dengan buku di tangan dan semangat di dada, <br />
+          kami datang bukan hanya untuk tinggal — <br />tapi untuk menyalakan
+          cahaya literasi dari hati yang paling dalam.
+        </h2>
+
+        <div class="experience__container container grid">
+          <div class="experience__img grid">
+            <div class="experience__overlay">
+              <img
+                src="assets/img/disco.jpg"
+                alt=""
+                class="experience__img-one"
+              />
+            </div>
+
+            <div class="experience__overlay">
+              <img
+                src="assets/img/experience2.jpg"
+                alt=""
+                class="experience__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== VIDEO ====================-->
+      <section class="video section">
+        <h2 class="section__title">Video Singkat</h2>
+
+        <div class="video__container container">
+          <p class="video__description">
+            Datang dengan tangan terbuka, pulang dengan cerita bermakna. Hari
+            ini kami menulis kalimat pertama dari kisah literasi di Hansisi.
+            Satu desa, banyak harapan, satu langkah, sejuta perubahan.
+          </p>
+
+          <div class="video__content">
+            <video id="video-file">
+              <source
+                src="assets/video/WhatsApp Video 2025-07-16 at 22.20.26_5d7d039b.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">KKNLiterasi06</h3>
+            <p class="footer__description">
+              Aksara pertama ditanam di bumi Hansisi.
+            </p>
+            <div>
+              <a
+                href="https://www.instagram.com/kknliterasi_hansisi.unc/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="ri-instagram-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <ul>
+              <li class="footer__item">
+                <a
+                  href="https://wa.me/6285739588881?text=Halo%20Saya%20ingin%20bertanya tentang%20KKN%20Literasi"
+                  class="footer__link"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &#169; 2025 kknliterasi_hansisi. All rigths reserved.
+          </p>
+          <div class="footer__terms">
+            <!-- <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script>
+      // Pastikan ini ada di dalam file main.js Anda
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper(".swiper-container", {
+          // Optional parameters
+          direction: "horizontal", // arah slide
+          loop: true, // loop untuk mengulang slide
+
+          // If you want to enable pagination
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+
+          // If you want to enable navigation buttons
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      });
+    </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
